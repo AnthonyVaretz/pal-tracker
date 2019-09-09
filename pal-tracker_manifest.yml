@@ -3,9 +3,9 @@ applications:
   disk_quota: 1G
   env:
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
-    WELCOME_MESSAGE: Hello from Cloud Foundry
+    WELCOME_MESSAGE: Hello from the review environment.
   instances: 1
   memory: 1G
   routes:
-  - route: pal-tracker-bright-tiger.apps.evans.pal.pivotal.io
+  - route: ava.apps.evans.pal.pivotal.io
   stack: cflinuxfs3
